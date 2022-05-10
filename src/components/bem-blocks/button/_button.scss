@@ -1,0 +1,16 @@
+button {
+    @include no-btn;
+    padding: 1rem 2rem;
+    border-radius: 0.75rem;
+    border: 1px solid #EDEDED;
+    font-size: 1rem;
+    font-weight: 500;
+    background-color: var(--white__color);
+    color: var(--black_color);
+    @include btn_anim(1.05,0.95);
+    text-align: center;
+    &:hover {
+        background-color: var(--main__color);
+        color: var(--white__color);
+    }
+}

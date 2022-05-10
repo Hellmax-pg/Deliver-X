@@ -1,0 +1,7 @@
+.logo {
+    padding: 3rem 0;
+    &__img {
+        cursor: pointer;
+        @include btn_anim(1.05,0.95);
+    }
+}

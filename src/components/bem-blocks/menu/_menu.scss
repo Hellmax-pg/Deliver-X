@@ -1,0 +1,18 @@
+.menu {
+  &__item {
+      padding: 0 1rem;
+      list-style: none;
+      &:hover{
+        color: var(--main__color);
+        @include btn_anim(1.05,0.95);
+      }
+      &:last-child {
+        margin-left: 2rem;
+        padding: 0 2rem 0 0;
+      }
+  }  
+  &__link {
+    text-decoration: none;
+    color: var(--black_color);
+  }
+}

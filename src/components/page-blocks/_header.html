@@ -1,1 +1,22 @@
-<header class="header"></header>
+<header class="header">
+    <div class="header__wrapper flex --align-center --just-space">
+        @@include('../bem-blocks/logo/_logo.html')
+        <div class="header__menu-wrapper flex --align-center">
+            @@include('../bem-blocks/menu/_menu.html')
+            @@include("../bem-blocks/button/_button.html", {
+                "class":{
+                "bem__elem":"header__btn-load"
+                },
+                "type":"button",
+                "text":"Download app"
+            })
+            @@include("../bem-blocks/button/_button.html", {
+                "class":{
+                "bem__elem":"header__btn-reg"
+                },
+                "type":"button",
+                "text":"Register"
+            })
+        </div>
+    </div>
+</header>

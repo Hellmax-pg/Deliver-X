@@ -46,10 +46,18 @@ html,
 body {
 	min-height: 100%;
 	position: relative;
+	font-family: 'Roboto', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 body {
 	font-size: 1rem;
+}
+
+.main {
+	margin: 0 auto;
+	flex: 1 0 auto;
+	max-width: 90rem;
+	padding: 0 6rem;
 }
 
 ul,
