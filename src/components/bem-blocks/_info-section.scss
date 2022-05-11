@@ -1,0 +1,42 @@
+.info {
+    background-color: var(--background__secondary-color);
+    &__container {
+        color: var(--white__color);
+        padding: 0 7rem;
+    }
+    &__container-wrapper {
+        width: 50%;
+        padding-right: 5rem;
+    }
+    &__container-wrapper__title {
+        font-size: 3rem;
+        font-weight: 400;
+    }
+    &__container-wrapper__descr {
+        font-size: 0.75rem;
+        margin-top: 1.5rem;
+        line-height: 2rem;
+    }
+    &__container-wrapper__reg {
+        background-color: var(--main__color);
+        border: var(--main__color);
+        height: 4rem;
+        margin-top: 2rem;
+    }
+    &__container-background {
+        position: relative;
+        width: 50%;
+        height: 42rem;
+    }
+    &__container-background__primary {
+        position: absolute;
+        z-index: 1;
+        left: -7rem;
+        top: -3rem;
+    }
+    &__container-background__secondary {
+        position: absolute;
+        left: 8rem;
+        top: -5rem;
+    }
+}
