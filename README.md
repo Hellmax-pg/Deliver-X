@@ -1,1 +1,1 @@
-https://hellmax-pg.github.io/deliver/build
+https://hellmax-pg.github.io/Deliver-X/build
