@@ -1,7 +1,7 @@
 .home {
     scroll-margin-top: 7rem;
     &__info {
-        padding-right: 8rem;
+        padding-right: 10rem;
     }
     &__subtitle {
         width: 100%;
@@ -54,6 +54,7 @@
         position: absolute;
         left: -9rem;
         top: 10rem;
+        transform: rotate(-1deg);
     }
     &__icons {
         width: 100%;
