@@ -1,1 +1,108 @@
-<footer class="footer"></footer>
+<footer class="footer">
+    <div class="footer__container flex --dir-col --align-center">
+        <div class="footer__header flex --just-space --align-center">
+            <div class="footer__header-info">
+                <div class="footer__header-logo">
+                    @@include('../bem-blocks/logo/_logo.html')
+                </div>
+                <p class="footer__header-descr">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor<br> incididunt ut.
+                </p>
+            </div>
+            <div class="footer__header-buttons">
+                @@include("../bem-blocks/button/_button.html", {
+                    "class":{
+                    "bem__elem":"footer__header-buttons__reg"
+                    },
+                    "type":"button",
+                    "text":"Download for iOS"
+                })
+                @@include("../bem-blocks/button/_button.html", {
+                    "class":{
+                    "bem__elem":"footer__header-buttons__load"
+                    },
+                    "type":"button",
+                    "text":"Download for Android"
+                })
+            </div>
+        </div>
+        <div class="footer__info flex --just-space">
+            <div class="footer__item">
+                <h4 class="footer__item-title">
+                    Menu
+                </h4>
+                <p class="footer__item-descr">
+                    <a href="#home" class="footer__item-link">Home</a>
+                </p>
+                <p class="footer__item-descr">
+                    <a href="#about" class="footer__item-link">About</a>
+                </p>
+                <p class="footer__item-descr">
+                    <a href="#gallary" class="footer__item-link">Gallary</a>
+                </p>
+                <p class="footer__item-descr">
+                    <a href="#features" class="footer__item-link">Features</a>
+                </p>
+                <p class="footer__item-descr">
+                    <a href="#tracking" class="footer__item-link">Tracking</a>
+                </p>
+                <p class="footer__item-descr">
+                    <a href="#comments" class="footer__item-link">Comments</a>
+                </p>
+            </div>
+            <div class="footer__item">
+                <h4 class="footer__item-title">
+                    Utility pages
+                </h4>
+                <p class="footer__item-descr">
+                    <a href="#" class="footer__item-link">Start here</a>
+                </p>
+                <p class="footer__item-descr">
+                    <a href="#" class="footer__item-link">Styleguide</a>
+                </p>
+                <p class="footer__item-descr">
+                    <a href="#" class="footer__item-link">Password protected</a>
+                </p>
+                <p class="footer__item-descr">
+                    <a href="#" class="footer__item-link">404 Not found</a>
+                </p>
+                <p class="footer__item-descr">
+                    <a href="#" class="footer__item-link">Licenses</a>
+                </p>
+                <p class="footer__item-descr">
+                    <a href="#" class="footer__item-link">Changelog</a>
+                </p>
+            </div>
+            <div class="footer__item flex --dir-col">
+                <h4 class="footer__item-title">
+                    Available in
+                </h4>
+                <div class="footer__item-descr flex --align-center">
+                    <img src="img/footer/San-Francisco.png" alt="San-Francisco" class="footer__item-picture">
+                    <p class="footer__item-city">
+                        San Francisco, CA
+                    </p>
+                    <img src="img/footer/New-York.png" alt="New-York" class="footer__item-picture">
+                    <p class="footer__item-city">
+                        New York, NY
+                    </p>
+                </div>
+                <div class="footer__item-descr flex --align-center">
+                    <img src="img/footer/Los-Angeles.png" alt="Los-Angeles" class="footer__item-picture">
+                    <p class="footer__item-city">
+                        Los Angeles, CA
+                    </p>
+                    <img src="img/footer/Seattle.png" alt="Seattle" class="footer__item-picture">
+                    <p class="footer__item-city">
+                        Seattle, WA
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="footer__footer flex --align-center --just-center">
+            <p class="footer__footer-descr">
+                Copyright © Deliver X | Designed by <span class="orange">BRIX Templates</span> - Powered by <span class="orange">Webflow</span>
+            </p>
+        </div>
+    </div>
+</footer>

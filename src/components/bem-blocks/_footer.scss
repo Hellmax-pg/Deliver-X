@@ -1,0 +1,51 @@
+.footer {
+    margin: 0 auto;
+    &__container {
+        max-width: 90rem;
+        margin: 0 auto;
+        padding: 0 6rem;
+    }
+    &__header {
+        padding: 2rem 0 5rem 0;
+        width: 100%;
+        border-bottom: 2px solid rgba(202, 202, 202, 0.4);
+    }
+    &__header-descr {
+        font-size: 0.75rem;
+    }
+    &__header-buttons {
+        * {
+            margin: 0 0.5rem;
+            height: 4rem;
+        }
+    }
+    &__info {
+        width: 100%;
+        padding: 6rem 0;
+        border-bottom: 2px solid rgba(202, 202, 202, 0.4);
+    }
+    &__item-title {
+        font-size: 1.25rem;
+        margin-bottom: 2rem;
+    }
+    &__item-descr {
+        margin: 0.75rem 0;
+    }
+    &__item-link {
+        text-decoration: none;
+        color: var(--black__color);
+    }
+    &__item-picture {
+        margin-right: 1rem;
+    }
+    &__item-city {
+        width: 10rem;
+    }
+    &__footer {
+        margin: 2rem 0;
+    }
+}
+.orange {
+    margin: 0 0.5rem;
+    color: var(--main__color);
+}

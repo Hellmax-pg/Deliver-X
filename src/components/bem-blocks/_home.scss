@@ -1,7 +1,7 @@
 .home {
+    scroll-margin-top: 7rem;
     &__info {
         padding-right: 8rem;
-        width: 50%;
     }
     &__subtitle {
         width: 100%;
@@ -47,7 +47,7 @@
     &__picture {
         height: 64rem;
         width: 50%;
-        margin-right: -9rem;
+        margin-right: -6rem;
         position: relative;
     }
     &__picture-delivery {
