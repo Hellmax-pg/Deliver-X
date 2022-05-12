@@ -1,13 +1,12 @@
-.info {
+.gallary {
     margin: 0 -6.5rem;
     background-color: var(--background__secondary-color);
     &__container {
         color: var(--white__color);
-        padding: 0 7rem;
     }
     &__container-wrapper {
         width: 50%;
-        padding-right: 5rem;
+        padding: 0 7rem;
     }
     &__container-wrapper__title {
         font-size: 3rem;
@@ -18,26 +17,26 @@
         margin-top: 1.5rem;
         line-height: 2rem;
     }
-    &__container-wrapper__reg {
+    &__container-wrapper__load {
         background-color: var(--main__color);
         border: var(--main__color);
         height: 4rem;
         margin-top: 2rem;
     }
     &__container-background {
-        position: relative;
+        overflow: hidden;
+        height: 94rem;
         width: 50%;
-        height: 42rem;
+        height: 54rem;
+        margin-right: -1rem;
     }
-    &__container-background__primary {
-        position: absolute;
-        z-index: 1;
-        left: -7rem;
-        top: -3rem;
+    &__container-primary {
+        margin-top: 8rem;
     }
-    &__container-background__secondary {
-        position: absolute;
-        left: 8rem;
-        top: -5rem;
+    &__container-secondary {
+        margin-bottom: 8rem;
+    }
+    &__container-item {
+        margin: 1rem;
     }
 }

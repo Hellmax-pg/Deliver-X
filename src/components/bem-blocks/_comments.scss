@@ -1,0 +1,65 @@
+.comments {
+    margin: 0 -6.5rem;
+    padding: 12rem 6.5rem 20rem 6.5rem;
+    background-color: var(--background__primary-color);
+    &__info {
+        width: 100%;
+    }
+    &__info-title {
+        font-size: 2.75rem;
+    }
+    &__info-descr {
+        margin-top: 1rem;
+        font-size: 0.75rem;
+        line-height: 2rem;
+    }
+    &__info-buttons {
+        margin-top: 3rem;
+        * {
+            margin: 0 0.5rem;
+            height: 4rem;
+        }
+    }
+    &__wrapper {
+        flex-wrap: wrap;
+        margin-top: 1rem;
+    }
+    &__item {
+        width: 24rem;
+        height: 17rem;
+        padding: 2rem;
+        border: 1px solid #EDEDED;
+        box-shadow: 0px 2px 12px rgba(16, 16, 16, 0.08);
+        border-radius: 24px;
+        margin-top: 2rem;
+    }
+    &__item-wrapper {
+        position: relative;
+        width: 100%;
+    }
+    &__item-info {
+        margin-left: 0.5rem;
+    }
+    &__item-name {
+        font-size: 1.25rem;
+        margin-top: 0.75rem;
+    }
+    &__item-place {
+        margin-top: 0.25rem;
+        color: var(--main__color);
+    }
+    &__item-subpicture {
+        position: absolute;
+        width: 2.25rem;
+        height: 2.25rem;
+        background-color: #EEF8FF;
+        border-radius: 8px;
+        top: 1rem;
+        right: 0;
+    }
+    &__item-descr {
+        margin-top: 2rem;
+        font-size: 1.25rem;
+        line-height: 2rem;
+    }
+}

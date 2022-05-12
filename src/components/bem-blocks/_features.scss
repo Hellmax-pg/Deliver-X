@@ -1,0 +1,45 @@
+.features {
+    margin: 12rem 0;
+    &__container {
+        text-align: center;
+    }
+    &__subtitle {
+        width: 100%;
+        font-size: 1.25rem;
+        color: var(--main__color);
+    }
+    &__title {
+        width: 100%;
+        font-size: 2.75rem;
+        margin-top: 0.5rem;
+    }
+    &__descr {
+        width: 100%;
+        font-size: 0.75rem;
+        margin-top: 1.5rem;
+    }
+    &__info {
+        margin-top: 2rem;
+        flex-wrap: wrap;
+    }   
+    &__item {
+        width: 22rem;
+        height: 16rem;
+        margin-top: 3rem;
+    }
+    &__item-title {
+        font-size: 1.75rem;
+        margin-top: 1.5rem;
+    }
+    &__item-descr {
+        margin-top: 1.5rem;
+    }
+    &__buttons {
+        width: 100%;
+        margin-top: 3rem;
+        * {
+            margin: 0 0.5rem;
+            height: 4rem;
+        }
+    }
+}

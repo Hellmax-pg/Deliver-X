@@ -9,6 +9,7 @@
         border-bottom: 2px solid rgba(202, 202, 202, 0.4);
         .system {
             &__subtitle {
+                font-size: 1.25rem;
                 color: var(--main__color);
             }
             &__title {
@@ -28,9 +29,6 @@
             }
             &__item {
                 max-width: 20rem;
-            }
-            &__item-img {
-                
             }
             &__item-title {
                 font-size: 1.75rem;
@@ -90,9 +88,6 @@
             &__container-background {
                 width: 50%;
                 position: relative;
-            }
-            &__container-background__main {
-    
             }
             &__container-background__app {
                 position: absolute;
