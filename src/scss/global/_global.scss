@@ -60,6 +60,12 @@ body {
 	padding: 0 6rem;
 }
 
+@media screen and (min-width: 1px) and (max-width: 1439px) {
+	.main {
+		padding: 0;
+	}
+}
+
 ul,
 ol,
 li,

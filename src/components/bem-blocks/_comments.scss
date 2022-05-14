@@ -24,42 +24,23 @@
         flex-wrap: wrap;
         margin-top: 1rem;
     }
-    &__item {
-        width: 24rem;
-        height: 17rem;
-        padding: 2rem;
-        border: 1px solid #EDEDED;
-        box-shadow: 0px 2px 12px rgba(16, 16, 16, 0.08);
-        border-radius: 24px;
-        margin-top: 2rem;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1439px) {
+    .comments {
+        margin: 0;
+        scroll-margin-top: 3rem;
+        padding: 6rem 1rem 10rem;
+        &__info {
+            align-items: center;
+            flex-direction: column;
+        }
+        &__wrapper {
+            justify-content: center;
+        }
     }
-    &__item-wrapper {
-        position: relative;
-        width: 100%;
-    }
-    &__item-info {
-        margin-left: 0.5rem;
-    }
-    &__item-name {
-        font-size: 1.25rem;
-        margin-top: 0.75rem;
-    }
-    &__item-place {
-        margin-top: 0.25rem;
-        color: var(--main__color);
-    }
-    &__item-subpicture {
-        position: absolute;
-        width: 2.25rem;
-        height: 2.25rem;
-        background-color: #EEF8FF;
-        border-radius: 8px;
-        top: 1rem;
-        right: 0;
-    }
-    &__item-descr {
-        margin-top: 2rem;
-        font-size: 1.25rem;
-        line-height: 2rem;
-    }
+}
+
+@media screen and (min-width: 300px) and (max-width: 767.5px) {
+
 }

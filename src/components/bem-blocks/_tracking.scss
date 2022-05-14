@@ -1,0 +1,183 @@
+.tracking {
+    padding: 12rem 0;
+    &__primary-collage__background {
+        position: relative;
+        width: 37rem;
+        height: 43rem;
+        background-color: var(--main__color);
+        border-radius: 2rem;
+    }
+    &__primary-collage__app {
+        position: absolute;
+        top: 4rem;
+        left: 4rem;
+    }
+    &__primary-collage__photo {
+        position: absolute;
+        z-index: 1;
+        left: 12rem;
+        top: 14rem;
+    }
+    &__primary-info {
+        padding-left: 3.5rem;
+    }
+    &__primary-title {
+        font-size: 2.75rem;
+    }
+    &__primary-descr {
+        line-height: 2rem;
+        margin-top: 0.5rem;
+    }
+    &__primary-item {
+        margin-top: 2rem;
+    }
+    &__primary-item__picture {
+        padding-right: 1.5rem;
+    }
+    &__primary-item__title {
+        font-size: 1.5rem;
+    }
+    &__primary-item__descr {
+        font-size: 0.75rem;
+        margin-top: 1rem;
+        line-height: 2rem;
+    }
+    &__secondary {
+        margin-top: 12rem;
+    }
+    &__secondary-info {
+        padding-right: 3.5rem;
+    }
+    &__secondary-title {
+        font-size: 2.75rem;
+    }
+    &__secondary-descr {
+        line-height: 2rem;
+        margin-top: 0.5rem;
+    }
+    &__secondary-item {
+        margin-top: 2rem;
+    }
+    &__secondary-item__picture {
+        padding-right: 1.5rem;
+    }
+    &__secondary-item__title {
+        font-size: 1.5rem;
+    }
+    &__secondary-item__descr {
+        font-size: 0.75rem;
+        margin-top: 1rem;
+        line-height: 2rem;
+    }
+    &__secondary-collage__background {
+        position: relative;
+        width: 37rem;
+        height: 43rem;
+        background-color: var(--main__color);
+        border-radius: 2rem;
+    }
+    &__secondary-collage__app {
+        position: absolute;
+        top: 4rem;
+        left: 12rem;
+    }
+    &__secondary-collage__photo {
+        position: absolute;
+        z-index: 1;
+        left: 4rem;
+        top: 14rem;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1439px) {
+    .tracking {
+        padding: 4rem 1rem 8rem;
+        &__primary {
+            flex-direction: column-reverse;
+        }
+        &__primary-collage__background {
+            width: 37rem;
+            height: 43rem;
+        }
+        &__primary-collage__app {
+            top: 4rem;
+            left: 4rem;
+        }
+        &__primary-collage__photo {
+            z-index: 1;
+            left: 12rem;
+            top: 14rem;
+        }
+        &__primary-info {
+            text-align: center;
+            padding-left: 0;
+            margin: 6rem 2rem 0;
+        }
+        &__primary-title {
+            margin: 0 5rem;
+        }
+        &__primary-descr {
+            margin: 0 5rem;
+        }
+        &__primary-item {
+            display: inline-block;
+            margin: 2rem 1rem;
+        }
+        &__primary-item__picture {
+            padding: 0;
+            margin-bottom: 1rem;
+        }
+        &__primary-item__title {
+            width: 100%;
+        }
+        &__primary-item__descr {
+            max-width: 25rem;
+        }
+        &__secondary {
+            margin-top: 8rem;
+            flex-direction: column;
+        }
+        &__secondary-info {
+            padding-right: 0;
+            text-align: center;
+            margin: 6rem 2rem 0;
+        }
+        &__secondary-title {
+            margin: 0 5rem;
+        }
+        &__secondary-descr {
+            margin: 0 5rem;
+        }
+        &__secondary-item {
+            display: inline-block;
+            margin: 2rem 1rem;
+        }
+        &__secondary-item__picture {
+            padding: 0;
+            margin-bottom: 1rem;
+        }
+        &__secondary-item__title {
+            width: 100%;
+        }
+        &__secondary-item__descr {
+            max-width: 25rem;
+        }
+        &__secondary-collage__background {
+            width: 37rem;
+            height: 43rem;
+        }
+        &__secondary-collage__app {
+            top: 4rem;
+            left: 12rem;
+        }
+        &__secondary-collage__photo {
+            z-index: 1;
+            left: 4rem;
+            top: 14rem;
+        }
+    }
+}
+
+@media screen and (min-width: 300px) and (max-width: 767.5px) {
+
+}

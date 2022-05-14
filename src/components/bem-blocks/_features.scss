@@ -8,6 +8,7 @@
         width: 100%;
         font-size: 1.25rem;
         color: var(--main__color);
+        text-transform: uppercase;
     }
     &__title {
         width: 100%;
@@ -43,4 +44,22 @@
             height: 4rem;
         }
     }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1439px) {
+    .features {
+        margin: 4rem 0;
+        padding: 0 1rem;
+        scroll-margin-top: 8rem;
+        &__container {
+            text-align: center;
+        }
+        &__info {
+            justify-content: center;
+        }
+    }
+}
+
+@media screen and (min-width: 300px) and (max-width: 767.5px) {
+
 }

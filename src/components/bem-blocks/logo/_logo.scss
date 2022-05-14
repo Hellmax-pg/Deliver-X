@@ -5,3 +5,13 @@
         @include btn_anim(1.05,0.95);
     }
 }
+
+@media screen and (min-width: 768px) and (max-width: 1439px) {
+    .logo {
+        margin-left: 2rem;
+    }
+}
+
+@media screen and (min-width: 300px) and (max-width: 767.5px) {
+
+}

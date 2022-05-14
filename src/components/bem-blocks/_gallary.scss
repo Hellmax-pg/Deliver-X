@@ -40,3 +40,32 @@
         margin: 1rem 0 1rem 2rem;
     }
 }
+
+@media screen and (min-width: 768px) and (max-width: 1439px) {
+    .gallary {
+        margin: 0;
+        scroll-margin-top: 9rem;
+        &__container-wrapper {
+            width: 75%;
+            align-items: center;
+            text-align: center;
+            padding: 0 2rem;
+        }
+        &__container-wrapper__load {
+            background-color: var(--main__color);
+            border: var(--main__color);
+            height: 4rem;
+            margin-top: 2rem;
+        }
+        &__container-primary {
+            display: none;
+        }
+        &__container-secondary {
+            margin-right: 3rem;
+        }
+    }
+}
+
+@media screen and (min-width: 300px) and (max-width: 767.5px) {
+
+}

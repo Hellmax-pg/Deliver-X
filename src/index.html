@@ -12,11 +12,31 @@
 	<main class="main">
 		@@include('components/page-blocks/_home.html')
 		@@include('components/page-blocks/_about.html')
-		@@include('components/page-blocks/_gallary_section.html')
+		@@include('components/page-blocks/_gallary.html')
 		@@include('components/page-blocks/_features.html')
-		@@include('components/page-blocks/_app-tracking.html')
-		@@include('components/page-blocks/_comments.html')
-		@@include('components/page-blocks/_info-section.html')
+		@@include('components/page-blocks/_tracking.html')
+		<section class="comments" id="comments">
+			<div class="comments__container flex --dir-col">
+				<div class="comments__info flex --just-space">
+					<div class="comments__info-wrapper">
+						<h2 class="comments__info-title">
+							What our clients say
+						</h2>
+						<p class="comments__info-descr">
+							Lorem ipsum dolor sit amet consectetur adipiscing elit semper dalar elementum <br>tempus hac
+						</p>
+					</div>
+					<div class="comments__info-buttons flex">
+						<button type="button" class="comments__info-buttons__reg">Register restaurant</button>
+						<button type="button" class="comments__info-buttons__load">Download app</button>
+					</div>
+				</div>
+				<div class="comments__wrapper flex --align-center --just-space">
+					@@loop('components/bem-blocks/comment/_comment.html', 'components/content/_comments.json')
+				</div>
+			</div>
+		</section>
+		@@include('components/page-blocks/_info.html')
 	</main>
 	@@include('components/page-blocks/_footer.html')
 	@@include('components/page-blocks/_scripts.html')

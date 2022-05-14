@@ -41,3 +41,33 @@
         top: -5rem;
     }
 }
+
+@media screen and (min-width: 768px) and (max-width: 1439px) {
+    .info {
+        margin: 0;
+        height: 32rem;
+        &__container {
+            height: 100%;
+            padding: 0 2rem;
+        }
+        &__container-wrapper {
+            text-align: center;
+            align-items: center;
+            width: 100%;
+            padding-right: 0;
+        }
+        &__container-wrapper__reg {
+            z-index: 5;
+            margin: 0 auto;
+            height: 4rem;
+            margin-top: 2rem;
+        }
+        &__container-background {
+            display: none;
+        }
+    }
+}
+
+@media screen and (min-width: 300px) and (max-width: 767.5px) {
+
+}

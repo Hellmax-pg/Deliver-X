@@ -16,3 +16,22 @@
     color: var(--black_color);
   }
 }
+
+@media screen and (min-width: 768px) and (max-width: 1439px) {
+  .menu {
+    padding-left: 1.5rem;
+    flex-wrap: wrap;
+    &__item {
+      padding: 0 0.4rem;
+      margin-top: 0.5rem;
+        &:last-child {
+          margin-left: 0.5rem;
+          padding: 0 0.5rem 0 0;
+        }
+    }  
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 767.5px) {
+
+}

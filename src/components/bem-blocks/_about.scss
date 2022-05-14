@@ -11,6 +11,7 @@
             &__subtitle {
                 font-size: 1.25rem;
                 color: var(--main__color);
+                text-transform: uppercase;
             }
             &__title {
                 margin-top: 0.5rem;
@@ -28,6 +29,7 @@
                 text-align: center;
             }
             &__item {
+                height: 34rem;
                 max-width: 20rem;
             }
             &__item-title {
@@ -91,7 +93,6 @@
             }
             &__container-background__app {
                 position: absolute;
-                z-index: -1;
                 left: -8rem;
                 top: 4rem;
             }
@@ -106,3 +107,79 @@
     }
 }
 
+@media screen and (min-width: 768px) and (max-width: 1439px) {
+    .about {
+        scroll-margin-top: 4rem;
+        padding: 4rem 1rem;
+        .about__container {
+            width: 100%;
+        }
+        .about__system {
+            padding-bottom: 0;
+            .system {
+                &__info {
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    width: 100%;
+                    margin-top: 6rem;
+                    text-align: center;
+                }
+                &__item {
+                    box-shadow: 0px 2px 12px rgba(16, 16, 16, 0.08);
+                    padding: 1rem;
+                    margin: 1rem;
+                }
+                &__buttons {
+                    margin: 3rem 0;
+                }
+            }
+        }
+        .about__delivery {
+            margin-top: 4rem;
+            .delivery {
+                &__container {
+                    flex-direction: column;
+                    text-align: center;
+                }
+                &__container-info {
+                    padding-right: 0;
+                }
+                &__container-title {
+                    margin-right: 0;
+                }
+                &__container-descr {
+                    margin-right: 0;
+                }
+                &__container-wrapper {
+                    margin-bottom: 3rem;
+                    justify-content: center;
+                }
+                &__container-item {
+                    align-items: center;
+                    &:nth-child(1) {
+                        .delivery__container-item__pic {
+                            margin-left: 2rem;
+                        }
+                    }
+                    &:nth-child(2) {
+                        .delivery__container-item__pic {
+                            margin-left: 1rem;
+                        }
+                    }
+                    &:nth-child(4) {
+                        .delivery__container-item__pic {
+                            margin-left: 1rem;
+                        }
+                    }
+                }
+                &__container-background {
+                    margin-left: 5rem;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 300px) and (max-width: 767.5px) {
+
+}
