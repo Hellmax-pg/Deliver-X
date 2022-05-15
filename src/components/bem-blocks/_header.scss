@@ -25,5 +25,12 @@
 }
 
 @media screen and (min-width: 300px) and (max-width: 767.5px) {
-
+    .header {
+        &__wrapper {
+            padding: 0;
+        }
+        button {
+            display: none;
+        }
+    }
 }

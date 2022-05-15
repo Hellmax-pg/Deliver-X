@@ -69,5 +69,26 @@
 }
 
 @media screen and (min-width: 300px) and (max-width: 767.5px) {
-
+    .info {
+        margin: 0;
+        height: auto;
+        &__container {
+            padding: 4rem 2rem;
+        }
+        &__container-wrapper {
+            text-align: center;
+            align-items: center;
+            width: 100%;
+            padding-right: 0;
+        }
+        &__container-wrapper__reg {
+            z-index: 5;
+            margin: 0 auto;
+            height: 4rem;
+            margin-top: 2rem;
+        }
+        &__container-background {
+            display: none;
+        }
+    }
 }

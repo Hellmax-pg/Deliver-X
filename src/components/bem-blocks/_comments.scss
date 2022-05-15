@@ -42,5 +42,25 @@
 }
 
 @media screen and (min-width: 300px) and (max-width: 767.5px) {
-
+    .comments {
+        margin: 0;
+        scroll-margin-top: -3rem;
+        padding: 6rem 1rem 10rem;
+        &__info {
+            align-items: center;
+            flex-direction: column;
+            text-align: center;
+        }
+        &__info-descr {
+            br {
+                display: none;
+            }
+        }
+        &__wrapper {
+            justify-content: center;
+        }
+        &__item-subpicture {
+            display: none;
+        }
+    }
 }

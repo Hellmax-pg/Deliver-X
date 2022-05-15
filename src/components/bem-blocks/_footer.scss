@@ -98,5 +98,58 @@
 }
 
 @media screen and (min-width: 300px) and (max-width: 767.5px) {
-
+    .footer {
+        margin: 0 auto;
+        &__container {
+            padding: 0 1rem;
+        }
+        &__header {
+            flex-direction: column;
+            padding: 2rem 0;
+            text-align: center;
+            &-logo {
+                .logo {
+                    margin-left: 0 ;
+                }
+            }
+        }
+        &__header-buttons {
+            margin-top: 1rem;
+            text-align: center;
+            * {
+                margin: 0.5rem;
+            }
+        }
+        &__info {
+            flex-direction: column;
+            text-align: center;
+            align-items: center;
+            padding: 2rem 0;
+            justify-content: space-around;
+        }
+        &__item {
+            margin-top: 2rem;
+        }
+        &__item:nth-child(3) {
+            align-items: center;
+        }
+        &__item-descr {
+            margin: 0.5rem 0;
+        }
+        &__item-wrapper {
+            flex-direction: column;
+        }
+        &__item-picture {
+            margin-right: 0;
+        }
+        &__item-city {
+            width: 10rem;
+            margin-top: 0.5rem;
+            text-align: center;
+        }
+        &__footer {
+            text-align: center;
+            margin: 2rem 0;
+        }
+    }
 }

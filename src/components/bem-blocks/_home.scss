@@ -105,5 +105,51 @@
 }
 
 @media screen and (min-width: 300px) and (max-width: 767.5px) {
-
+    .home {
+        padding: 1rem;
+        scroll-margin-top: 8rem;
+        &__container {
+            flex-direction: column;
+        }
+        &__info {
+            padding-right: 0;
+            text-align: center;
+        }
+        &__subtitle {
+            text-align: center;
+        }
+        &__picture {
+            display: none;
+            margin-top: 2rem;
+            margin-right: 2rem;
+        }
+        &__icons {
+            flex-wrap: wrap;
+            justify-content: center;
+            padding-bottom: 3rem;
+            &-item {
+                margin: 1rem;
+            }
+        }
+        &__container {
+            margin-bottom: 3rem;
+            &-text {
+                color: #656565;
+            }
+        }
+        &__stats-items {
+            font-size: 2rem;
+            font-weight: bold;
+        }
+        &__orange {
+            color: var(--main__color);
+            font-size: 2rem;
+        }
+        &__reg {
+            &-btn:last-child {
+                margin-left: 0;
+                margin-top: 1rem;
+            }
+        }
+    }
 }
